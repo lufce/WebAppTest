@@ -34,4 +34,6 @@ function drawGrid() {
   }
   ctx.closePath();
   ctx.stroke();
+
+  ctx.fillRect(0,0,30,30);
 }
